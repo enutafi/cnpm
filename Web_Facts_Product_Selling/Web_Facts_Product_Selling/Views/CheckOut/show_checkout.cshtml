@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "show_checkout";
+    Layout = "~/Areas/Admin/Views/Shared/_WelcomeLayout.cshtml";
+}
+
+<section id="cart_items">
+	<div class="container">
+		<div class="breadcrumbs">
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li class="active">Check out</li>
+			</ol>
+		</div><!--/breadcrums-->
+
+		<div class="shopper-informations">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="shopper-info">
+						<p>Shopper Information</p>
+						<form action="/payment" method="POST">
+							<input type="text" name="shipping_email" placeholder="Email">
+							<input type="text" name="shipping_name" placeholder="Name">
+							<input type="text" name="shipping_address" placeholder="Address">
+							<input type="text" name="shipping_phone" placeholder="Phone Number">
+							<textarea name="shipping_note" placeholder="Shipping note" rows="16"></textarea>
+							<input type="submit" value="Confirm Information" name="send_order" class="btn btn-primary btn-sm ">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> <!--/#cart_items-->
+

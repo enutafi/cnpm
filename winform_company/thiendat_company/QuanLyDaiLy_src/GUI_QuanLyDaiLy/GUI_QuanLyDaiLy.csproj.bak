@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B39D3A1-70B5-4D2D-80E8-FE4AD55A4AA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyDaiLy</RootNamespace>
+    <AssemblyName>QuanLyDaiLy</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v18.1.Win, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v18.1.UI, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Map.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.1.UI, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v18.1.Presets, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v18.1.Win, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraMap.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeMap.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baocaocongno.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="baocaocongno.designer.cs">
+      <DependentUpon>baocaocongno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCaoDoanhSo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaoCaoDoanhSo.Designer.cs">
+      <DependentUpon>BaoCaoDoanhSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangKyTaiKhoancs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DangKyTaiKhoancs.Designer.cs">
+      <DependentUpon>DangKyTaiKhoancs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMatKhau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginDatabase.Designer.cs">
+      <DependentUpon>LoginDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoRongDaiLy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MoRongDaiLy.Designer.cs">
+      <DependentUpon>MoRongDaiLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuaHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MuaHang.Designer.cs">
+      <DependentUpon>MuaHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhieuThu.Designer.cs">
+      <DependentUpon>PhieuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuXuat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhieuXuat.Designer.cs">
+      <DependentUpon>PhieuXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QCToChuc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QCToChuc.Designer.cs">
+      <DependentUpon>QCToChuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QDMatHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QDMatHang.Designer.cs">
+      <DependentUpon>QDMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QDTienNo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QDTienNo.Designer.cs">
+      <DependentUpon>QDTienNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDaiLy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLyDaiLy.Designer.cs">
+      <DependentUpon>QuanLyDaiLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyMatHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLyMatHang.Designer.cs">
+      <DependentUpon>QuanLyMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuyChe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuyChe.Designer.cs">
+      <DependentUpon>QuyChe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemLoaiDaiLy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThemLoaiDaiLy.Designer.cs">
+      <DependentUpon>ThemLoaiDaiLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemQuan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThemQuan.Designer.cs">
+      <DependentUpon>ThemQuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChuQuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangChuQuanLy.Designer.cs">
+      <DependentUpon>TrangChuQuanLy.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baocaocongno.resx">
+      <DependentUpon>baocaocongno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCaoDoanhSo.resx">
+      <DependentUpon>BaoCaoDoanhSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangKyTaiKhoancs.resx">
+      <DependentUpon>DangKyTaiKhoancs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginDatabase.resx">
+      <DependentUpon>LoginDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoRongDaiLy.resx">
+      <DependentUpon>MoRongDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuaHang.resx">
+      <DependentUpon>MuaHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuThu.resx">
+      <DependentUpon>PhieuThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuXuat.resx">
+      <DependentUpon>PhieuXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QCToChuc.resx">
+      <DependentUpon>QCToChuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QDMatHang.resx">
+      <DependentUpon>QDMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QDTienNo.resx">
+      <DependentUpon>QDTienNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyDaiLy.bin.resx">
+      <DependentUpon>QuanLyDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyDaiLy.da.resx">
+      <DependentUpon>QuanLyDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyDaiLy.resx">
+      <DependentUpon>QuanLyDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyDaiLy.vi-VN.resx">
+      <DependentUpon>QuanLyDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyMatHang.resx">
+      <DependentUpon>QuanLyMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuyChe.resx">
+      <DependentUpon>QuyChe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemLoaiDaiLy.resx">
+      <DependentUpon>ThemLoaiDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemQuan.resx">
+      <DependentUpon>ThemQuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrangChuQuanLy.resx">
+      <DependentUpon>TrangChuQuanLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS_QuanLyDaiLy\BUS_QuanLyDaiLy.csproj">
+      <Project>{ac4c74e4-ff83-4c44-bc54-e038fa0f3e26}</Project>
+      <Name>BUS_QuanLyDaiLy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO_QuanLyDaiLy\DTO_QuanLyDaiLy.csproj">
+      <Project>{026A9D5D-FD95-4EDC-A19B-EA2106CFB633}</Project>
+      <Name>DTO_QuanLyDaiLy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

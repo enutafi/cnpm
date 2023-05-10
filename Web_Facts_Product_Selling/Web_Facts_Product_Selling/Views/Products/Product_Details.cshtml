@@ -1,0 +1,100 @@
+﻿@model Web_Facts_Product_Selling.Models.TblProduct
+
+@{
+    ViewData["Title"] = "Product_Details";
+    Layout = "~/Areas/Admin/Views/Shared/_WelcomeLayout.cshtml";
+}
+
+
+		<div class="product-details">
+			<!--product-details-->
+			<div class="col-sm-5">
+				<div class="view-product">
+			<img src="~/public/frontend/images/@Html.DisplayFor(model => model.ProductImage)" alt="" />
+				</div>
+				<div id="similar-product" class="carousel slide" data-ride="carousel"
+					<a class="left item-control" href="#similar-product" data-slide="prev">
+						<i class="fa fa-angle-left"></i>
+					</a>
+					
+				</div>
+
+			</div>
+			<div class="col-sm-7">
+				<div class="product-information">
+					<h2>  @Html.DisplayFor(model => model.ProductName)</h2>
+					<p>Product ID: @Html.DisplayFor(model => model.ProductId)</p>
+
+			<form method="post" action="/show_cart/@Html.DisplayFor(model => model.ProductId)">
+				<span>
+					<span>@Html.DisplayFor(model => model.ProductPrice)$</span>
+							<label>Quantity:</label>
+							<input name="numberOfItems" type="number" min="1" value="1" />
+							<input name="productid_hidden" type="hidden" min="1" value="1" />
+							<button type="submit" class="btn btn-fefault cart">
+								<i class="fa fa-shopping-cart"></i>
+										Add To Cart  
+							</button>
+				</span>
+					 </form>
+
+					@if(@Html.DisplayFor(model => model.ProductStatus).Equals(true))
+					{
+                        <p >Available</p>
+                    }
+                    else{
+                        <p>Out of stock</p>
+                    }
+					<p><b>Category:</b> @Html.DisplayFor(model => model.CategoryId)</p>
+					<a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
+				</div><!--/product-information-->
+			</div>
+		</div>
+
+<div class="category-tab shop-details-tab">
+	<!--category-tab-->
+	<div class="col-sm-12">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#details" data-toggle="tab">Describe</a></li>
+			<li><a href="#companyprofile" data-toggle="tab">Details</a></li>
+			<li><a href="#reviews" data-toggle="tab">Reviews</a></li>
+		</ul>
+	</div>
+	<div class="tab-content">
+		<div class="tab-pane fade active in" id="details">
+			<p>@Html.DisplayFor(model => model.ProductDesc)</p>
+		</div>
+
+		<div class="tab-pane fade" id="companyprofile">
+			<p>@Html.DisplayFor(model => model.ProductContent)</p>
+		</div>
+
+		<div class="tab-pane fade" id="reviews">
+			<div class="col-sm-12">
+				<ul>
+					<li><a href=""><i class="fa fa-user"></i>EUGEN</a></li>
+					<li><a href=""><i class="fa fa-clock-o"></i>12:41 PM</a></li>
+					<li><a href=""><i class="fa fa-calendar-o"></i>2022</a></li>
+				</ul>
+				<p><b>Write Your Review</b></p>
+
+				<form action="#">
+					<span>
+						<input type="text" placeholder="Your Name" />
+						<input type="email" placeholder="Email Address" />
+					</span>
+					<textarea name=""></textarea>
+					<b>Rating: </b> <img src="images/product-details/rating.png" alt="" />
+					<button type="button" class="btn btn-default pull-right">
+						Submit
+					</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+

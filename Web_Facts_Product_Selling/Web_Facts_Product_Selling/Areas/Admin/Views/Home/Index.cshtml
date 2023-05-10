@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Web_Facts_Product_Selling.Models.TblProduct>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_WelcomeLayout.cshtml";
+}
+
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+
+        <tr>
+
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+           
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+        </tr>
+
+        @if(Model != null && Model.Count() > 0){
+           foreach (var item in Model)
+           {
+                <tr>
+                    <th scope="row">1</th>
+                    <td>@item.ProductName</td>
+                    <td>@item.ProductStatus</td>
+                    <td>@item.ProductId</td>
+                    <td>@item.ProductPrice</td>
+                </tr>
+            }
+        }
+    
+        }
+       
+    </tbody>
+</table>

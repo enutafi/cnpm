@@ -1,0 +1,73 @@
+﻿@model IEnumerable< Web_Facts_Product_Selling.ViewModel.CartItem>
+@{
+    ViewData["Title"] = "payment";
+    Layout = "~/Areas/Admin/Views/Shared/_WelcomeLayout.cshtml";
+}
+<section id="cart_items">
+		<div class="container">
+			<div class="breadcrumbs">
+				<ol class="breadcrumb">
+				  <li><a href="">Trang chủ</a></li>
+				  <li class="active">Thanh toán giỏ hàng</li>
+				</ol>
+			</div>
+
+			
+			<div class="review-payment">
+				<h2>Review Payment</h2>
+			</div>
+			<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+							<td class="image">Hình ảnh</td>
+							<td class="description">Tên sp</td>
+							<td class="price">Giá</td>
+							<td class="quantity">Số lượng</td>
+							<td class="total">Tổng</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+					@foreach (var item in Model)
+					   {
+						<tr>
+							<td class="cart_product">
+								<a href=""><img src="~/public/frontend/images/@item.ProductImage" width="90" alt="" /></a>
+							</td>
+							<td class="cart_description">
+								<h4><a href="">@item.ProductName</a></h4>
+							</td>
+							<td class="cart_price">
+								<p>@item.ProductPrice$</p>
+							</td>
+							<td class="cart_quantity">
+								<p>@item.NumberOfItems</p>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">
+									@item.subtotal
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href="{{URL::to('/delete-to-cart/'.$v_content->rowId)}}"><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+						}
+					</tbody>
+				</table>
+                
+			</div>
+            
+			<h4 style="margin:40px 0;font-size: 20px;">Choose your payment options</h4>
+			<form method="get" action="/success_order">
+				<div class="payment-options">
+					<input type="submit" value="Pay By Cash"  name="send_order_place" class="btn btn-success btn-lg" style="margin-left: 25px">
+					<div> <p style="color:white">a</p></div>
+					<div class="col-md-15">
+						<div id="paypal-button"></div>
+					</div>
+			</div>
+			</form>
+		</div>
+	</section> <!--/#cart_items-->
+

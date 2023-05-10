@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TPCN</title>
+    <title>@ViewData["Title"] - Facts_Product</title>
+    <link rel="stylesheet" href="~/Facts_Product.styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/public/frontend/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/public/frontend/css/font-awesome.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/public/frontend/css/prettyPhoto.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/public/frontend/css/price-range.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/public/frontend/css/animate.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/public/frontend/css/main.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/public/frontend/css/responsive.css" asp-append-version="true" />
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="~/public/frontend/images/ico/favicon.ico" asp-append-version="true">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/public/frontend/images/ico/apple-touch-icon-144-precomposed.png" asp-append-version="true">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/public/frontend/images/ico/apple-touch-icon-114-precomposed.png" asp-append-version="true">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/public/frontend/images/ico/apple-touch-icon-72-precomposed.png" asp-append-version="true">
+    <link rel="apple-touch-icon-precomposed" href="~/public/frontend/images/ico/apple-touch-icon-57-precomposed.png" asp-append-version="true">
+</head><!--/head-->
+
+<body>
+    <header id="header">
+        <!--header-->
+        <div class="header_top">
+            <!--header_top-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contactinfo">
+                            <ul class="nav nav-pills">
+                                <li><a href="#"><i class="fa fa-phone"></i> +11111111</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i> threeofus@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="social-icons pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header_top-->
+
+        <div class="header-middle">
+            <!--header-middle-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo pull-left">
+                            <a href="{{URL::to('/home')}}"><img src="~/public/frontend/images/logo.png" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="shop-menu pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+                                <li><a href="{{ URL::to('/show-checkout') }}"><i class="fa fa-crosshairs"></i>Check Out</a></li>
+                                <li><a href="{{ URL::to('/show-cart') }}"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                                <li><a href="{{ URL::to('/user-register') }}"><i class="fa fa-lock"></i> Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-middle-->
+
+        <div class="header-bottom">
+            <!--header-bottom-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="mainmenu pull-left">
+                            <ul class="nav navbar-nav collapse navbar-collapse">
+                                <li><a href="{{URL::to('/home')}}" class="active">Home</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="shop.html">Products</a></li>
+                                        <li><a href="product-details.html">Product Details</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="contact-us.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="search_box pull-right">
+                            <input type="text" placeholder="Search" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-bottom-->
+    </header><!--/header-->
+
+    <section id="slider">
+        <!--slider-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider-carousel" data-slide-to="1"></li>
+                            <li data-target="#slider-carousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-sm-6">
+                                    <h1><span>SUN</span>-SUN</h1>
+                                    <h2>FACTS PRODUCT</h2>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="~/public/frontend/images/pannel1.png" class="girl img-responsive" alt="" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-sm-6">
+                                    <h1><span>SUN</span>-SUN</h1>
+                                    <h2>KHUYẾN MÃI NGẬP TRÀN,GIẢM GIÁ HÀNG TỶ ĐỒNG</h2>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="~/public/frontend/images/pannel2.png" class="girl img-responsive" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="col-sm-6">
+                                    <h1><span>SUN</span>-SUN</h1>
+                                    <h2>MIỄN PHÍ VẬN CHUYỂN, BẢO HÀNH MIỄN PHÍ LÊN ĐẾN 1 NĂM</h2>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="~/public/frontend/images/pannel3.png" class="girl img-responsive" alt="" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section><!--/slider-->
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer id="footer">
+        <!--Footer-->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="companyinfo">
+                            <h2><span>D</span>-</h2>
+                            <p>Top D-Lap site</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/public/frontend/images/iframe1.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Circle of Hands</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/public/frontend/images/iframe2.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Circle of Hands</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/public/frontend/images/iframe3.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Circle of Hands</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/public/frontend/images/iframe4.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Circle of Hands</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="address">
+                            <img src="~/public/frontend/images/map.png" alt="" />
+                            <p>Ton Duc Thang University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <p class="pull-left">Copyright © 2013 D-LAP Inc. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer><!--/Footer-->
+
+    <script src="~/public/frontend/js/jquery.js"></script>
+    <script src="~/public/frontend/js/bootstrap.min.js"></script>
+    <script src="~/public/frontend/js/jquery.scrollUp.min.js"></script>
+    <script src="~/public/frontend/js/price-range.js"></script>
+    <script src="~/public/frontend/js/jquery.prettyPhoto.js"></script>
+    <script src="~/public/frontend/js/main.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script>
+        paypal.Button.render({
+            // Configure environment
+            env: 'sandbox',
+            client: {
+                sandbox: 'ARAoePMZlCmPK6OlKFWJk5v-Vz88kkSE2cie6locN8c2A_NZt0B6Ua1Far4P_tN6BBPfuotLiBaAs4xL',
+                production: 'demo_production_client_id'
+            },
+            // Customize button (optional)
+            locale: 'en_US',
+            style: {
+                size: 'medium',
+                color: 'gold',
+                shape: 'pill',
+            },
+
+            // Enable Pay Now checkout flow (optional)
+            commit: true,
+
+            // Set up a payment
+            payment: function (data, actions) {
+                return actions.payment.create({
+                    transactions: [{
+                        amount: {
+                            total: '{{ (Cart::total())}}',
+                            currency: 'USD'
+                        }
+                    }]
+                });
+            },
+            // Execute the payment
+            onAuthorize: function (data, actions) {
+                return actions.payment.execute().then(function () {
+                    // Show a confirmation message to the buyer
+                    window.alert('Thank you for your purchase!');
+                });
+            }
+        }, '#paypal-button');
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+E:\U-I-T\NhapMonCongNghePhanMem\PhanMemQuanLyDaiLy\QuanLyDaiLy\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+E:\U-I-T\NhapMonCongNghePhanMem\PhanMemQuanLyDaiLy\QuanLyDaiLy\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+E:\U-I-T\NhapMonCongNghePhanMem\PhanMemQuanLyDaiLy\QuanLyDaiLy\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojResolveAssemblyReference.cache
+E:\U-I-T\NhapMonCongNghePhanMem\PhanMemQuanLyDaiLy\QuanLyDaiLy\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+E:\U-I-T\NhapMonCongNghePhanMem\PhanMemQuanLyDaiLy\QuanLyDaiLy\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\Duy Linh\Documents\GitHub\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\Duy Linh\Documents\GitHub\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\Duy Linh\Documents\GitHub\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojResolveAssemblyReference.cache
+C:\Users\Duy Linh\Documents\GitHub\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\Duy Linh\Documents\GitHub\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+E:\SchoolProject\IntroduceOfSoftwareDevelopment\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+E:\SchoolProject\IntroduceOfSoftwareDevelopment\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+E:\SchoolProject\IntroduceOfSoftwareDevelopment\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+E:\SchoolProject\IntroduceOfSoftwareDevelopment\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\leeco\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\leeco\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\leeco\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojResolveAssemblyReference.cache
+C:\Users\leeco\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\leeco\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+D:\GITHUT\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+D:\GITHUT\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+D:\GITHUT\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojAssemblyReference.cache
+D:\GITHUT\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csproj.CoreCompileInputs.cache
+D:\GITHUT\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+D:\GITHUT\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\vu\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\vu\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\vu\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojAssemblyReference.cache
+C:\Users\vu\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csproj.CoreCompileInputs.cache
+C:\Users\vu\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\vu\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\leeco\Desktop\New folder (2)\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\leeco\Desktop\New folder (2)\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\leeco\Desktop\New folder (2)\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojResolveAssemblyReference.cache
+C:\Users\leeco\Desktop\New folder (2)\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\leeco\Desktop\New folder (2)\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\vu\Desktop\Githut5\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\vu\Desktop\Githut5\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\vu\Desktop\Githut5\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojAssemblyReference.cache
+C:\Users\vu\Desktop\Githut5\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csproj.CoreCompileInputs.cache
+C:\Users\vu\Desktop\Githut5\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\vu\Desktop\Githut5\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\KhanhLe\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\KhanhLe\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\KhanhLe\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojResolveAssemblyReference.cache
+C:\Users\KhanhLe\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\KhanhLe\Desktop\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+E:\DO_AN_QLDL\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+E:\DO_AN_QLDL\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+E:\DO_AN_QLDL\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojResolveAssemblyReference.cache
+E:\DO_AN_QLDL\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+E:\DO_AN_QLDL\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\vu\Desktop\Githut6\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\vu\Desktop\Githut6\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\vu\Desktop\Githut6\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csprojAssemblyReference.cache
+C:\Users\vu\Desktop\Githut6\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csproj.CoreCompileInputs.cache
+C:\Users\vu\Desktop\Githut6\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\vu\Desktop\Githut6\QuanLyDaiLy\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\Lenovo\Desktop\a4\play\store manager (winform)\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\Lenovo\Desktop\a4\play\store manager (winform)\QuanLyDaiLy_src\DTO_QuanLyDaiLy\bin\Debug\DTO_QuanLyDaiLy.pdb
+C:\Users\Lenovo\Desktop\a4\play\store manager (winform)\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\a4\play\store manager (winform)\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\a4\play\store manager (winform)\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.dll
+C:\Users\Lenovo\Desktop\a4\play\store manager (winform)\QuanLyDaiLy_src\DTO_QuanLyDaiLy\obj\Debug\DTO_QuanLyDaiLy.pdb
